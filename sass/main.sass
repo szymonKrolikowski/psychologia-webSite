@@ -137,6 +137,74 @@ html
         line-height: 2.5rem
         font-weight: 500
 
+.aboutSpecialist
+    width: 100vw
+    display: flex
+    flex-direction: column
+    justify-content: center
+    overflow: hidden
+    padding: 5rem 2rem
+    max-width: 130rem
+    margin: 0 auto
+
+    &__textBox
+        margin: 4rem 0rem
+
+    &__imageBox
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        width: 90%
+        position: relative
+        margin: 0 auto
+
+
+        &::after
+            content: ""
+            position: absolute
+            width: 100%
+            height: 100%
+            top: 5%
+            left: 5%
+            background: $lightBlue
+            z-index: -1
+            border-radius: 2.5rem
+        
+
+    &__image
+        width: 100%
+        position: relative
+        border-radius: 2rem
+
+    &__unorderedList
+        list-style-type: none
+        margin: 2rem 0rem
+
+    &__listElement
+        font-size: 1.4rem
+        line-height: 2.5rem
+
+// .aboutSpecialist__imageBox
+//     display: flex
+//     flex-direction: row
+//     justify-content: center
+//     align-items: center
+//     width: 90%
+//     position: relative
+//     margin: 0 auto
+
+//     &::after
+//         content: ""
+//         position: absolute
+//         width: 100%
+//         height: 100%
+//         top: 5%
+//         left: 5%
+//         background: $lightBlue
+//         z-index: -1
+//         border-radius: 2.5rem
+
 
 @import "./_small"
 @import "./_medium"
