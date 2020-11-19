@@ -184,6 +184,47 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .aboutUs {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .aboutUs__button {
+    width: 14rem;
+  }
+  .aboutUs__textBox {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 3rem;
+  }
+  .aboutUs__imageBox {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutUs__imageBox::after {
+    height: 50%;
+    top: 29%;
+    left: 5%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
