@@ -112,4 +112,17 @@ html {
             justify-content: center;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .headingOne {
+    font-size: 4rem;
+    width: 60rem;
+  }
+  .paragraph {
+    font-size: 1.8rem;
+  }
+  .paragraph--header {
+    width: 50rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
