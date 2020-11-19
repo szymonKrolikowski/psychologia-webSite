@@ -22,6 +22,9 @@ html
     font-size: 2.5rem
     margin: 2rem 0rem
 
+.headingTwo--white
+    color: $white
+
 .headingThree
     color: $green
     text-transform: uppercase
@@ -36,6 +39,9 @@ html
     line-height: 2.5rem
     font-weight: 500
 
+.paragraph--white
+    color: $white
+
 .spanGreenColor
     color: $green
 
@@ -47,6 +53,10 @@ html
     border-radius: 2rem
     color: $white
     margin-top: 2rem
+
+.wrapper
+    max-width: 100vw
+    background-color: $blue
 
 .header
     width: 100vw
@@ -159,7 +169,6 @@ html
         position: relative
         margin: 0 auto
 
-
         &::after
             content: ""
             position: absolute
@@ -171,7 +180,6 @@ html
             z-index: -1
             border-radius: 2.5rem
         
-
     &__image
         width: 100%
         position: relative
@@ -185,26 +193,23 @@ html
         font-size: 1.4rem
         line-height: 2.5rem
 
-// .aboutSpecialist__imageBox
-//     display: flex
-//     flex-direction: row
-//     justify-content: center
-//     align-items: center
-//     width: 90%
-//     position: relative
-//     margin: 0 auto
+.firstContact
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    padding: 5rem 2rem
 
-//     &::after
-//         content: ""
-//         position: absolute
-//         width: 100%
-//         height: 100%
-//         top: 5%
-//         left: 5%
-//         background: $lightBlue
-//         z-index: -1
-//         border-radius: 2.5rem
+    &__formBox
+        margin-top: 2rem
 
+    &__input
+        border: none
+        padding: 0.7rem 2.5rem
+        border-radius: 2.5rem
+        text-align: center
+        margin: 0rem 5rem
+        font-size: 1.8rem
 
 @import "./_small"
 @import "./_medium"
