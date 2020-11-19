@@ -63,6 +63,53 @@ html
     &__image
         width: 100%
 
+.aboutUs
+    width: 100vw
+    max-width: 130rem
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 5rem 2rem
+    margin: 0 auto
+
+    &__textBox
+        margin-bottom: 4rem
+
+    &__imageBox
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        width: 100%
+        position: relative
+
+        &::after
+            content: ""
+            position: absolute
+            width: 95%
+            height: 100%
+            top: 5%
+            left: 5%
+            background: $lightBlue
+            z-index: -1
+            border-radius: 2.5rem
+
+    &__image
+        width: 90%
+        border-radius: 2rem
+        position: relative
+
+
+    &__unorderedList
+        list-style-type: none
+        margin: 2rem 0rem
+
+    &__listElement
+        font-size: 1.4rem
+        line-height: 2.5rem
+
+
 @import "./_small"
 @import "./_medium"
 @import "./_large"
