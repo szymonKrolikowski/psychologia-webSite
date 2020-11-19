@@ -265,6 +265,18 @@ html {
     top: 29%;
     left: 5%;
   }
+  .discussionOfTherapy {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .discussionOfTherapy__elementBox {
+    width: 25%;
+    margin: 3rem 2rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
