@@ -303,5 +303,11 @@ html {
     top: 15%;
     left: 10%;
   }
+  .discussionOfTherapy__elementBox {
+    width: 30%;
+  }
+  .discussionOfTherapy__paragraph {
+    font-size: 1.6rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
