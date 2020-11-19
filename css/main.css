@@ -19,6 +19,11 @@ html {
   margin-bottom: 2rem;
 }
 
+.headingTwo {
+  font-size: 2.5rem;
+  margin: 2rem 0rem;
+}
+
 .headingThree {
   color: #05AF57;
   text-transform: uppercase;
