@@ -31,6 +31,10 @@ html {
   margin-bottom: 0.5rem;
 }
 
+.headingFour {
+  font-size: 2rem;
+}
+
 .paragraph {
   font-size: 1.4rem;
   line-height: 2.5rem;
@@ -145,6 +149,42 @@ html {
 .aboutUs__listElement {
   font-size: 1.4rem;
   line-height: 2.5rem;
+}
+
+.discussionOfTherapy {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  padding: 5rem 2rem;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.discussionOfTherapy__elementBox {
+  position: relative;
+  margin: 2rem 0rem;
+}
+
+.discussionOfTherapy__numberSpan {
+  position: absolute;
+  font-size: 12rem;
+  color: rgba(5, 175, 87, 0.15);
+  bottom: 1rem;
+}
+
+.discussionOfTherapy__paragraph {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
