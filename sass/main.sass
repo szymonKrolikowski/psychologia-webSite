@@ -208,8 +208,56 @@ html
         padding: 0.7rem 2.5rem
         border-radius: 2.5rem
         text-align: center
-        margin: 0rem 5rem
         font-size: 1.8rem
+
+.opinions
+    width: 100vw
+    max-width: 130rem
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    text-align: center
+    padding: 5rem 2rem
+    margin: 0 auto
+
+    &__paragraph
+        font-size: 1.4rem
+        line-height: 2.5rem
+        text-align: center
+
+    &__paragraphName
+        text-align: center
+        font-size: 1.8rem
+        font-weight: bold
+        margin-top: 2rem
+
+    &__carousel
+        overflow: hidden
+        max-width: 60rem
+        position: relative
+        margin: 0 auto
+
+    &__carouselElement,
+    &__carouselElement--hidden
+        display: none
+        height: 13rem
+
+    &__carouselElement--visible
+        display: block
+
+.carouselButtonBox
+    display: flex
+    justify-content: center
+
+.carousel__button
+    margin: 2rem 2rem
+    border: 1px solid $green
+    background: none
+    width: 4rem
+    height: 4rem
+    line-height: 4rem
+    border-radius: 50%
+
 
 @import "./_small"
 @import "./_medium"
