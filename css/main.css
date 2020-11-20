@@ -293,8 +293,71 @@ html {
   padding: 0.7rem 2.5rem;
   border-radius: 2.5rem;
   text-align: center;
-  margin: 0rem 5rem;
   font-size: 1.8rem;
+}
+
+.opinions {
+  width: 100vw;
+  max-width: 130rem;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 5rem 2rem;
+  margin: 0 auto;
+}
+
+.opinions__paragraph {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.opinions__paragraphName {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.opinions__carousel {
+  overflow: hidden;
+  max-width: 60rem;
+  position: relative;
+  margin: 0 auto;
+}
+
+.opinions__carouselElement, .opinions__carouselElement--hidden {
+  display: none;
+  height: 13rem;
+}
+
+.opinions__carouselElement--visible {
+  display: block;
+}
+
+.carouselButtonBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel__button {
+  margin: 2rem 2rem;
+  border: 1px solid #05AF57;
+  background: none;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) {
@@ -422,6 +485,9 @@ html {
     z-index: -1;
     border-radius: 2.5rem;
   }
+  .opinions__carouselElement {
+    max-height: 9rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -432,6 +498,9 @@ html {
   .headingTwo {
     font-size: 3rem;
     width: 50rem;
+  }
+  .headingTwo--opinions {
+    margin: 2rem auto;
   }
   .headingTwo--white {
     width: 100%;
